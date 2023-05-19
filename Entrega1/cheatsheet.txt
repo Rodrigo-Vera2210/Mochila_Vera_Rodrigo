@@ -1,0 +1,23 @@
+Comandos mós usados de git - Github
+
+GIT
+
+$ git init: "crea un repositorio local en la carpeta donde estemos ubicados"
+$ git add <nombre>: "Añade el archivo <nombre> en el repositorio local.
+$ git add .: "Añade todos los archivos de la carpeta en el repositorio local"
+$ git status: "Revisa el esta en el que se encuentra la carpeta"
+$ git commit -m <comentario>: "Realiza una version general de todos los archivos añadidos en el repositorio local con el nombre de <comentario>"
+$ git branch <nombre>: "Crea una rama paralela del proyecto con el nombre <nombre> desde el ultimo commit realizado"
+$ git checkout <nombre>: "Se ubica en la rama paralela con el nombre <nombre>" 
+$ git config --global username <usuario>: "Configura el nombre de usuario general del equipo"
+$ git config --global email <email>: "Configura el email de usuario general del equipo"
+$ git config username <usuario>: "Configura el nombre de usuario en la carpeta que estemos trabajando"
+$ git config email <email>: "Configura el email de usuario en la carpeta que estemos trabajando"
+
+
+GITHUB
+
+$ git remote add origin <URL>: "Vincula el repositorio local con el repositorio remoto de la <URL>"
+$ git push - u origin <branch>: "Sube el repositorio local de la rama <branch> en el repositorio remoto"
+$ git clone <URL>: "clona el repositorio remoto de la <URL> en la carpeta que estemos trabajando"
+$ git pull origin <branch>: "descarga los archivos de la rama <branch> del repositorio remoto al local" 

@@ -1,0 +1,7 @@
+IP Publica<157.100.134.188>
+IP Privada<10.0.2.15>
+MAC <08:00:27:77:ce:52>
+
+-Es diferente a la IP publica y privada de nuestra maquina host?
+
+La IP publica es igual, mientras que la privada es diferente
